@@ -1,0 +1,28 @@
+.body{
+  width: 8in;
+  height: 10in;
+  display: grid;
+  place-items:center;
+}
+
+.container {
+  width: 6.6in;
+  height: 8.6in;
+  display: grid;
+  /* border: 0.5px solid black; */
+  place-items:center;
+  position: relative;
+}
+
+.overlay{
+z-index: 1;
+opacity: 1.0;
+position: absolute;
+
+}
+
+.underlay{
+z-index: 0;
+position: absolute;  
+}
+
