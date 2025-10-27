@@ -1,28 +1,25 @@
-.body{
-  width: 8in;
-  height: 10in;
+.body {
   display: grid;
   place-items:center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url('/assets/images/image_unedited_x.png');
 }
 
 .container {
+  display: grid;
   width: 6.6in;
   height: 8.6in;
-  display: grid;
   /* border: 0.5px solid black; */
   place-items:center;
   position: relative;
 }
 
-.overlay{
-z-index: 1;
+.image {
+  z-index: 1;
 opacity: 1.0;
 position: absolute;
-
+hsla(0,100%,50%,0.5); /* setting initial hsla values */
 }
-
-.underlay{
-z-index: 0;
-position: absolute;  
-}
-
